@@ -11,7 +11,7 @@ const newComments = document.createElement('div');
 //validar que el textarea tenga un comentario
 if (comments.length === 0 || comments === null) {
  alert ('Debes ingresar un mensaje');
-}
+} 
 return false; 
  let textNewComment = document.createTextNode(comments);
  const contenedorElemento = document.createElement ('p');
